@@ -9,20 +9,21 @@ import Button from "react-bootstrap/Button";
 function navbar() {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar id="Navbar" bg="light" expand="lg">
         <Container>
           <Navbar.Brand>
-            <h1>Pest clean</h1>
+            <img className="logo" src="https://raw.githubusercontent.com/macaury/GoodPoison/5cb071ff8366f316d6fcb401592ce3fc78296dd6/src/assets/navbar/logo.svg" alt="GoodPoison" />
           </Navbar.Brand>
 
+  
           <Nav>
-            <Nav.Link> Home</Nav.Link>
+            <Nav.Link className="home"> <span>Home</span> </Nav.Link>
             <Nav.Link> Pest Control</Nav.Link>
             <Nav.Link> Prevent and Protect</Nav.Link>
             <Nav.Link> Expert Training</Nav.Link>
           </Nav>
           <Nav>
-            <Button>Contact Us</Button>
+            <Button className="contact" >Contact Us</Button>
           </Nav>
         </Container>
       </Navbar>
