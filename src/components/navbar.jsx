@@ -9,7 +9,7 @@ import Button from "react-bootstrap/Button";
 function navbar() {
   return (
     <>
-      <Navbar id="Navbar" bg="light" expand="lg">
+      <Navbar id="Navbar" bg="--secondary-color" expand="lg">
         <Container>
           <Navbar.Brand>
             <img className="logo" src="https://raw.githubusercontent.com/macaury/GoodPoison/5cb071ff8366f316d6fcb401592ce3fc78296dd6/src/assets/navbar/logo.svg" alt="GoodPoison" />
