@@ -1,17 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-
-    font-family: 'Archivo', sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Archivo", sans-serif;
 }
 
-body{
-    background-color: var(--secondary-color);
+body {
+  background-color: var(--secondary-color);
 }
 
-
-:root{
-    --primary-color: #0C0C0C;
-    --secondary-color: #E6E6E6;
+:root {
+  --primary-color: #0c0c0c;
+  --secondary-color: #f3f2f2;
 }
