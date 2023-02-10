@@ -12,19 +12,23 @@ function navbar() {
       <Navbar id="Navbar" bg="--secondary-color" expand="lg">
         <Container>
           <Navbar.Brand>
-            <img className="logo" src="https://raw.githubusercontent.com/macaury/GoodPoison/5cb071ff8366f316d6fcb401592ce3fc78296dd6/src/assets/navbar/logo.svg" alt="GoodPoison" />
+            <img
+              className="logo"
+              src="https://raw.githubusercontent.com/macaury/GoodPoison/5cb071ff8366f316d6fcb401592ce3fc78296dd6/src/assets/navbar/logo.svg"
+              alt="GoodPoison"
+            />
           </Navbar.Brand>
 
-  
-          <Nav>
-            <Nav.Link className="home"> <span>Home</span> </Nav.Link>
+          <Nav >
+            <Nav.Link className="home">
+              {" "}
+              <span>Home</span>{" "}
+            </Nav.Link>
             <Nav.Link> Pest Control</Nav.Link>
             <Nav.Link> Prevent and Protect</Nav.Link>
             <Nav.Link> Expert Training</Nav.Link>
           </Nav>
-          <Nav>
-            <Button className="contact" >Contact Us</Button>
-          </Nav>
+          <Button className="btn_main">Contact Us</Button>
         </Container>
       </Navbar>
     </>

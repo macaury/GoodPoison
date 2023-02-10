@@ -14,7 +14,7 @@ function home() {
             <div className="box_home">
               <h1>Introducing the Best Pest Control Agency in New York</h1>
               <span>Get a personalized quote today. <br/> </span>
-              <Button className="btn_get_quote">Get a quote</Button>
+              <Button className="btn_main">Get a quote</Button>
             </div>
           </Col>
           <Col>
