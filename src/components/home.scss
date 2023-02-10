@@ -4,19 +4,17 @@ $border_color: #f3f2f2;
 #Home {
   .box_home {
     position: absolute;
-    display: block;
     top: 220px;
     width: 650px;
     h1 {
-      font-weight: 400;
-      font-size: 70px;
+      font-weight: bold;
+      font-size: 65px;
       text-align: justify;
     }
     span {
       margin-top: 40px;
       font-size: 25px;
     }
-   
   }
   .svg_home {
     width: 700px;
@@ -84,9 +82,8 @@ $border_color: #f3f2f2;
   }
 }
 
-
 .btn_main {
-  font-size: 20px;
+  font-size: 18px;
   background-color: $backgroud-color-main;
   border: none;
   padding: 15px 30px;

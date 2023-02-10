@@ -6,6 +6,9 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 
+
+import "./navbar.scss";
+
 function navbar() {
   return (
     <>
@@ -14,7 +17,7 @@ function navbar() {
           <Navbar.Brand>
             <img
               className="logo"
-              src="https://raw.githubusercontent.com/macaury/GoodPoison/5cb071ff8366f316d6fcb401592ce3fc78296dd6/src/assets/navbar/logo.svg"
+              src="https://raw.githubusercontent.com/macaury/GoodPoison/675cfffbb580af3eb6f9a2e43bef76f31eb76f1a/src/assets/navbar/logo.svg"
               alt="GoodPoison"
             />
           </Navbar.Brand>
