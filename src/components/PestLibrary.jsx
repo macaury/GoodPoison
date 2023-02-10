@@ -4,6 +4,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import Card from "react-bootstrap/Card";
+
 import "./PestLibrary.scss";
 
 function PestLibrary() {
@@ -11,7 +13,7 @@ function PestLibrary() {
   const carousel = useRef();
 
   useEffect(() => {
-    fetch("https://macaury.github.io/Green-Panther/dist/shoes.json")
+    fetch("http://localhost:5173/public/pest_library.json")
       .then((response) => response.json())
       .then(setData);
   }, []);
@@ -29,27 +31,22 @@ function PestLibrary() {
               </h1>
             </Row>
           </div>
-          <div className="carousel  " ref={carousel}>
+          <div className="carousel " ref={carousel}>
             {data.map((item) => {
               const { id, name, order, image } = item;
 
               return (
-                <Card key={id}>
-                  <Card.Img
-                    className="image"
-                    variant="top"
-                    src={image}
-                    alt={name}
-                  />
-
-                  <Card.Body className="justify-content-start">
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>{order}</Card.Text>
-                  </Card.Body>
-                </Card>
+                <Col className="cardpest" key={id}>
+                  <Card>
+                    <Card.Img className="image" src={image} alt={name} />
+                  </Card>
+                  <div className="info text-center">
+                    <h5>{name}</h5>
+                    <span>{order}</span>
+                  </div>
+                </Col>
               );
             })}
-            ;
           </div>
         </Row>
       </Container>
