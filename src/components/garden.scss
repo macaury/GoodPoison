@@ -11,15 +11,24 @@
     padding-left: 50px;
     h3 {
       font-size: 25px;
+      text-align: start;
     }
     h2 {
+      text-align: start;
+
       font-size: 50px;
       font-weight: bold;
       margin-bottom: 20px;
       margin: 30px 0;
+    }
+    span {
+      text-align: start;
+
+      font-size: 18px;
     }
     button {
       margin: 30px 0;
     }
   }
 }
+
