@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-
 import "./home.scss";
 
 function home() {
@@ -16,7 +15,9 @@ function home() {
           <Col>
             <div className="box_home">
               <h1>Introducing the Best Pest Control Agency in New York</h1>
-              <span>Get a personalized quote today. <br/> </span>
+              <span>
+                Get a personalized quote today. <br />{" "}
+              </span>
               <Button className="btn_main">Get a quote</Button>
             </div>
           </Col>
@@ -27,24 +28,26 @@ function home() {
               alt=""
             />
           </Col>
-          <div className="line_home">
-            <Row>
-              <Col xl="3">
-                <div className="rectangle_project">
-                  <h2>3000+</h2>
-                  <span>Project Done </span>
-                </div>
-              </Col>
-              <Col>
-                <div className="rectangle_client">
-                  <h2>120+</h2>
-                  <span>Happy Client</span>
-                </div>
-              </Col>
-            </Row>
-          </div>
         </Row>
       </Container>
+      <div className="line_home">
+        <Container>
+          <Row>
+            <Col xl="3">
+              <div className="rectangle_project">
+                <h2>3000+</h2>
+                <span>Project Done </span>
+              </div>
+            </Col>
+            <Col>
+              <div className="rectangle_client">
+                <h2>120+</h2>
+                <span>Happy Client</span>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 }
