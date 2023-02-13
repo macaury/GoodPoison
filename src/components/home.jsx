@@ -35,13 +35,20 @@ function home() {
           <Row>
             <Col xl="3">
               <div className="rectangle_project">
-                <img src="" alt="" />
+                <img
+                  src="https://raw.githubusercontent.com/macaury/GoodPoison/5c151faa34b8640be60efc45f40e1b517e930565/src/assets/home/project.svg"
+                  alt=""
+                />
                 <h2>3000+</h2>
                 <span>Project Done </span>
               </div>
             </Col>
             <Col>
               <div className="rectangle_client">
+                <img
+                  src="https://raw.githubusercontent.com/macaury/GoodPoison/5c151faa34b8640be60efc45f40e1b517e930565/src/assets/home/happy.svg"
+                  alt=""
+                />
                 <h2>120+</h2>
                 <span>Happy Client</span>
               </div>
