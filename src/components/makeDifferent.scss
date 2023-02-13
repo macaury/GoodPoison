@@ -1,36 +1,41 @@
+$color-font: #f3f2f2;
+$color-bg: #3a3a3a;
+
 .different_txt {
-  h2 {
+  h2{
     font-weight: bold;
     font-size: 50px;
   }
-  span {
+  span{
     display: block;
     margin: 30px 0;
   }
-  a {
+  a{
     font-size: 20px;
     text-decoration-line: underline !important ;
-    color: #3a3a3a !important;
+    color: $color-bg !important;
   }
 }
 
 .different_col {
-    .col {
-        text-align: center;
-      display: flex;
-      color: #fcfcfc;
-    padding: 20px;
-    margin: 10px;
-    background-color: #3a3a3a;
-    width: 300px !important;
+  .col {
+    text-align: start;
+    display: block;
+    color: $color-font;
+    margin: 15px;
+    padding: 25px;
+    background-color: $color-bg;
+    width: 250px ;
     height: 150px;
     h2 {
-        width: 100% !important;
+      margin-left: 20px;
       font-size: 40px;
       font-weight: bold;
     }
-    span{
-        width: 100%;
+    span {
+      margin-left: 20px;
+      font-style: italic;
+      font-weight: lighter !important;
     }
   }
 }
