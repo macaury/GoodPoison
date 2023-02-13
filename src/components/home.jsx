@@ -35,6 +35,7 @@ function home() {
           <Row>
             <Col xl="3">
               <div className="rectangle_project">
+                <img src="" alt="" />
                 <h2>3000+</h2>
                 <span>Project Done </span>
               </div>
