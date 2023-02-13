@@ -7,6 +7,7 @@ import Garden from "./components/garden.jsx";
 import WeedControl from "./components/weedcontrol.jsx";
 import MakeDifferent from "./components/makeDifferent.jsx";
 import OurTeam from "./components/OurTeam.jsx";
+import Footer from "./components/footer.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <WeedControl />
       <MakeDifferent />
       <OurTeam />
+      <Footer/>
     </>
   );
 }

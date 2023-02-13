@@ -56,6 +56,29 @@ function OurTeam() {
             })}
           </div>
         </Row>
+
+        <Row>
+          <div className="FindUs">
+            <Col>
+              <h2>Find Your Local Branch</h2>
+              <span>
+                Our experts in your local pests because they live and work where
+                you do.
+                <br />
+              </span>
+              <span className="call">
+                Call 1111-222-3333 or search based on your ZIP code. <br />
+              </span>
+              <input type="number" placeholder=" Enter your zip code "></input>
+            </Col>
+            <Col>
+              <img
+                src="https://raw.githubusercontent.com/macaury/GoodPoison/01bfebe319495d2a9046ca2650c991a42fd41b0a/src/assets/FindUs/findUs.svg"
+                alt=""
+              />
+            </Col>
+          </div>
+        </Row>
       </Container>
     </>
   );
