@@ -6,8 +6,7 @@ import Pest from "./components/PestLibrary";
 import Garden from "./components/garden.jsx";
 import WeedControl from "./components/weedcontrol.jsx";
 import MakeDifferent from "./components/makeDifferent.jsx";
-
-
+import OurTeam from "./components/OurTeam.jsx";
 
 function App() {
   return (
@@ -17,7 +16,8 @@ function App() {
       <Pest />
       <Garden />
       <WeedControl />
-      <MakeDifferent/>
+      <MakeDifferent />
+      <OurTeam />
     </>
   );
 }
