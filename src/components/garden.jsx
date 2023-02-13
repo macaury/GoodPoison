@@ -4,17 +4,20 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
 
+import "./garden.scss"
+
+
 function Garden() {
   return (
     <>
-      <Container>
+      <Container id="garden">
         <Row>
           <Col className="garden_pest_svg">
-            <img src="" alt="" />
+            <img src="https://raw.githubusercontent.com/macaury/GoodPoison/c75ce186018a7430e49f637e592a3135eb0ad247/src/assets/garden/Garden_pests_2_.svg" alt="" />
           </Col>
           <Col className="garden_txt">
-            <h5>RESULTS FOCUSED, CUSTOMER CENTERED</h5>
-            <h1>We’ve been here from the beginning</h1>
+            <h3>RESULTS FOCUSED, CUSTOMER CENTERED</h3>
+            <h2>We’ve been here from the beginning</h2>
             <span>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Pellentesque morbi donec lacus ut amet, scelerisque ornare. In
