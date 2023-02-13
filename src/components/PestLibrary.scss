@@ -5,7 +5,7 @@ $color_latim_namePest: #636363;
   margin-top: 300px;
 
   h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
   }
   h3 {
@@ -18,17 +18,18 @@ $color_latim_namePest: #636363;
   display: flex;
   flex: none;
   margin-top: 80px;
+
   .card {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background-color: $color_bg_pest;
     border-radius: 100px;
-
+    margin: auto;
     .image {
       display: block;
       margin: auto;
-      width: 120px;
-      height: 120px;
+      width: 100px;
+      height: 100px;
     }
   }
 }
@@ -39,11 +40,11 @@ $color_latim_namePest: #636363;
   width: 100%;
   h5 {
     margin: 25px 0 10px ;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
   }
   span {
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
     color: $color_latim_namePest;
 }
