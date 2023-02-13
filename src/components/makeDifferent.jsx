@@ -19,7 +19,14 @@ function makeDifferent() {
               nisl sapien amet, eget semper in. Tempus porta justo vulputate
               sagittis vulputate accumsan vitae, neque, ornare. <br />
             </span>
-            <a> Explore what makes Us different  <img src="" alt="" /> </a>
+            <a>
+              
+              Explore what makes Us different
+              <img 
+                src="https://raw.githubusercontent.com/macaury/GoodPoison/2b2b81e7ced4f473fe150c4c92f7ccb80cad8390/src/assets/weedControl/linkSet.svg"
+                alt=""
+              />
+            </a>
           </Col>
           <Col xl="5" className="different_col">
             <Row>
