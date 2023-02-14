@@ -17,7 +17,7 @@ function home() {
             <div className="box_home">
               <h1>Introducing the Best Pest Control Agency in New York</h1>
               <span>
-                Get a personalized quote today. <br />{" "}
+                Get a personalized quote today. <br/>
               </span>
               <Button className="btn_main">Get a quote</Button>
             </div>
@@ -38,17 +38,17 @@ function home() {
               <div className="rectangle_project">
                 <img
                   src="https://raw.githubusercontent.com/macaury/GoodPoison/5c151faa34b8640be60efc45f40e1b517e930565/src/assets/home/project.svg"
-                  alt=""
+                  alt="Project Done"
                 />
                 <h2>3000+</h2>
-                <span>Project Done </span>
+                <span>Project Done</span>
               </div>
             </Col>
             <Col>
               <div className="rectangle_client">
                 <img
                   src="https://raw.githubusercontent.com/macaury/GoodPoison/5c151faa34b8640be60efc45f40e1b517e930565/src/assets/home/happy.svg"
-                  alt=""
+                  alt="Happy Client"
                 />
                 <h2>120+</h2>
                 <span>Happy Client</span>
