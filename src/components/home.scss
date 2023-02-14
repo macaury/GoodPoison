@@ -4,7 +4,11 @@ $border_color: #f3f2f2;
 
 .btn_main{
   transition-duration: 0.8s;
-
+  font-size: 18px;
+  background-color: $backgroud-color-main;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
 }
 
 .btn_main:hover {
@@ -115,10 +119,3 @@ $border_color: #f3f2f2;
   }
 }
 
-.btn_main {
-  font-size: 18px;
-  background-color: $backgroud-color-main;
-  border: none;
-  padding: 15px 30px;
-  border-radius: 5px;
-}

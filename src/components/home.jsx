@@ -6,13 +6,14 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import "./home.scss";
+import "./mobile.scss";
 
 function home() {
   return (
     <>
       <Container>
         <Row id="Home">
-          <Col>
+          <Col className="col_box">
             <div className="box_home">
               <h1>Introducing the Best Pest Control Agency in New York</h1>
               <span>
@@ -21,7 +22,7 @@ function home() {
               <Button className="btn_main">Get a quote</Button>
             </div>
           </Col>
-          <Col>
+          <Col className="svg_col">
             <img
               className="svg_home"
               src="https://raw.githubusercontent.com/macaury/GoodPoison/b621de64894ef2a6225033c1d4ef1532ebbe7d01/src/assets/home/home.svg"

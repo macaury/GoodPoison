@@ -23,9 +23,7 @@ function navbar() {
           </Navbar.Brand>
 
           <Nav >
-            <Nav.Link className="home">
-              {" "}
-              <span>Home</span>{" "}
+            <Nav.Link className="home">Home
             </Nav.Link>
             <Nav.Link> Pest Control</Nav.Link>
             <Nav.Link> Prevent and Protect</Nav.Link>

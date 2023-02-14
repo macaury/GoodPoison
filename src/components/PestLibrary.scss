@@ -25,11 +25,20 @@ $color_latim_namePest: #636363;
     background-color: $color_bg_pest;
     border-radius: 100px;
     margin: auto;
+
+    -webkit-box-shadow: 0px 0px 44px -11px $color_latim_namePest;
+    -moz-box-shadow: 0px 0px 44px -11px $color_latim_namePest;
+    box-shadow: 0px 0px 44px -11px $color_latim_namePest;
+    border: none;
+
     .image {
-      display: block;
       margin: auto;
       width: 100px;
       height: 100px;
+    }
+    .image:hover {
+      scale: (1.8);
+      transition: all 1s;
     }
   }
 }
@@ -39,7 +48,7 @@ $color_latim_namePest: #636363;
   margin: auto;
   width: 100%;
   h5 {
-    margin: 25px 0 10px ;
+    margin: 25px 0 10px;
     font-size: 20px;
     font-weight: bold;
   }
@@ -47,7 +56,7 @@ $color_latim_namePest: #636363;
     font-size: 15px;
     font-style: italic;
     color: $color_latim_namePest;
-}
+  }
   h5::first-letter {
     text-transform: uppercase;
   }
