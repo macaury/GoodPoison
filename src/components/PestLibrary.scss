@@ -16,19 +16,25 @@ $color_latim_namePest: #636363;
 
 .carousel {
   display: flex;
-  flex: none;
   margin-top: 80px;
+  flex: none;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+
 
   .card {
+    position: inherit;
     width: 150px;
     height: 150px;
     background-color: $color_bg_pest;
     border-radius: 100px;
     margin: auto;
-
-    -webkit-box-shadow: 0px 0px 44px -11px $color_latim_namePest;
-    -moz-box-shadow: 0px 0px 44px -11px $color_latim_namePest;
-    box-shadow: 0px 0px 44px -11px $color_latim_namePest;
+    margin: 25px;
+    -webkit-box-shadow: 0px 0px 34px -11px $color_latim_namePest;
+    -moz-box-shadow: 0px 0px 34px -11px $color_latim_namePest;
+    box-shadow: 0px 0px 34px -11px $color_latim_namePest;
     border: none;
 
     .image {
@@ -47,6 +53,8 @@ $color_latim_namePest: #636363;
   display: block;
   margin: auto;
   width: 100%;
+  margin: 0 0 25px 0;
+
   h5 {
     margin: 25px 0 10px;
     font-size: 20px;

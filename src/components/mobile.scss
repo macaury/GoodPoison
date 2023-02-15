@@ -8,6 +8,11 @@
     .logo {
       height: 40px;
     }
+
+    .navbar-nav a {
+      font-size: 16px;
+      margin: 0 10px;
+    }
   }
 
   #Home {
@@ -22,7 +27,6 @@
       }
     }
   }
-
   .line_home {
     .rectangle_client {
       position: absolute;
@@ -32,13 +36,39 @@
 
     .rectangle_client,
     .rectangle_project {
-      h2{
+      h2 {
         font-size: 50px;
       }
-      span{
+      span {
         font-size: 30px;
         margin-top: -10px;
       }
     }
   }
+
+  #garden{
+
+    .garden_pest_svg img{
+      width: 450px;
+    }
+
+  }
+
+
+  #weedControl{
+    .bug_icon img{
+      width: 150px;
+      right: 100px;
+      position: absolute;
+    }
+
+    .control_icon img{
+      width: 100%;
+    }
+  }
+
+#footer{
+  
+}
+
 }
