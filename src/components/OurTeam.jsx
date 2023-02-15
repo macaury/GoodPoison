@@ -33,7 +33,7 @@ function OurTeam() {
               const { id, title, image } = item;
 
               return (
-                <Col className="service_card" key={id}>
+                <Col  className="service_card" key={id}>
                   <Card.Img className="image" src={image} alt={title} />
                   <div className="info">
                     <h3>{title}</h3>
@@ -71,7 +71,7 @@ function OurTeam() {
               </span>
               <input type="number" placeholder=" Enter your zip code "></input>
             </Col>
-            <Col>
+            <Col className="box_svg">
               <img
                 src="https://raw.githubusercontent.com/macaury/GoodPoison/01bfebe319495d2a9046ca2650c991a42fd41b0a/src/assets/FindUs/findUs.svg"
                 alt=""

@@ -16,13 +16,11 @@ $color_latim_namePest: #636363;
 
 .carousel {
   display: flex;
-  margin-top: 80px;
   flex: none;
-  display: flex;
+  margin-top: 80px;
   overflow-x: auto;
   scroll-behavior: smooth;
   width: 100%;
-
 
   .card {
     position: inherit;

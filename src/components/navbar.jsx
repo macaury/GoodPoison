@@ -6,6 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 
+import { VscMenu } from "react-icons/vsc";
 
 import "./navbar.scss";
 
@@ -22,14 +23,18 @@ function navbar() {
             />
           </Navbar.Brand>
 
-          <Nav >
-            <Nav.Link className="home">Home
-            </Nav.Link>
+          <Nav>
+            <Nav.Link>Home</Nav.Link>
             <Nav.Link> Pest Control</Nav.Link>
             <Nav.Link> Prevent and Protect</Nav.Link>
             <Nav.Link> Expert Training</Nav.Link>
           </Nav>
-          <Button className="btn_main">Contact Us</Button>
+          <div className="menu_clas">
+            <Button className="btn_main">Contact Us</Button>
+            <Button className=" menu">
+              <VscMenu></VscMenu>
+            </Button>
+          </div>
         </Container>
       </Navbar>
     </>

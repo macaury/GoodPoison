@@ -17,7 +17,7 @@ function Garden() {
           </Col>
           <Col className="garden_txt">
             <h3>RESULTS FOCUSED, CUSTOMER CENTERED</h3>
-            <h2>We’ve been here from the beginning</h2>
+            <h2>We’ve been here from the beginning.</h2>
             <span>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Pellentesque morbi donec lacus ut amet, scelerisque ornare. In
