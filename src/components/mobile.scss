@@ -97,6 +97,8 @@ body {
       display: flex;
 
       .menu {
+        border: none;
+        background-color: $dark_color_primary;
         display: block;
         padding: 15px;
         margin: 0 0 0 35px !important ;
@@ -146,18 +148,97 @@ body {
 }
 
 @media screen and (max-width: 430px) {
-  #garden {
-  margin-bottom: 100px !important;
+  #Navbar {
+    .logo {
+      height: 60px;
+      padding: 0 0 0 10px;
+    }
 
-    
+    .menu_clas {
+      .btn_main {
+        display: none;
+      }
+    }
+  }
+
+  #Home {
+    .box_home {
+      padding: 25px !important;
+      h1 {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .line_home {
+    .rectangle_project,
+    .rectangle_client {
+      width: 180px;
+      img {
+        width: 70px;
+        left: 50px;
+      }
+
+      h2 {
+        font-size: 35px;
+        left: 40px;
+      }
+      span {
+        font-size: 25px;
+        left: 40px;
+      }
+    }
+    .rectangle_project {
+      span {
+        top: 200px;
+      }
+    }
+
+    .rectangle_client {
+      span {
+        top: 150px;
+      }
+    }
+
+    .rectangle_client {
+      right: 10px;
+      bottom: 65px;
+    }
+  }
+
+  #Pest_Library {
+    margin: 200px 0 150px 0 !important;
+
+    h1 {
+      font-size: 40px !important;
+      word-spacing: 5px;
+      text-align: justify;
+    }
+    h3 {
+      font-size: 20px !important;
+    }
+  }
+
+  #garden {
+    margin-bottom: 100px !important;
+
     .garden_pest_svg {
       display: none;
     }
     .garden_txt {
       padding: 25px !important;
+
+      h2 {
+        font-size: 40px !important;
+      }
+
       h2,
-      span {
+      span,
+      h3 {
         text-align: justify !important;
+      }
+      h3 {
+        font-size: 20px !important;
       }
     }
   }
@@ -220,5 +301,13 @@ body {
   }
 
   #footer {
+    .logo_footer {
+      margin: auto;
+      display: block;
+        width: 250px !important;
+    }
+    .col{
+margin: 30px 0 0 0!important;
+    }
   }
 }

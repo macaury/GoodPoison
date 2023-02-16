@@ -11,14 +11,14 @@ function footer() {
       <div id="footer">
         <Container className="py-5 ">
           <Row>
-            <Col>
+            <Col sm="12">
               <img
                 className="logo_footer"
                 src="https://raw.githubusercontent.com/macaury/GoodPoison/675cfffbb580af3eb6f9a2e43bef76f31eb76f1a/src/assets/navbar/logo.svg"
                 alt="GoodPoison"
               />
             </Col>
-            <Col>
+            <Col >
               <h5>Quick Link</h5>
               <li>
                 <a href="#"> Home</a>
@@ -27,7 +27,7 @@ function footer() {
                 <a href="#">Pest Control</a>
               </li>
             </Col>
-            <Col>
+            <Col >
               <h5>Service</h5>
               <li>
                 <a href="#">Expert Training</a>
@@ -36,7 +36,7 @@ function footer() {
                 <a href="#">Prevent and Protect</a>
               </li>
             </Col>
-            <Col>
+            <Col >
               <h5>My Account</h5>
               <li>
                 <a href="#">Pay Bill</a>
