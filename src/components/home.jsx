@@ -31,10 +31,12 @@ function home() {
           </Col>
         </Row>
       </Container>
+
       <div className="line_home">
-        <Container>
+      <Container>
+
           <Row>
-            <Col xl="3">
+            <Col>
               <div className="rectangle_project">
                 <img
                   src="https://raw.githubusercontent.com/macaury/GoodPoison/5c151faa34b8640be60efc45f40e1b517e930565/src/assets/home/project.svg"
@@ -43,8 +45,6 @@ function home() {
                 <h2>3000+</h2>
                 <span>Project Done</span>
               </div>
-            </Col>
-            <Col>
               <div className="rectangle_client">
                 <img
                   src="https://raw.githubusercontent.com/macaury/GoodPoison/5c151faa34b8640be60efc45f40e1b517e930565/src/assets/home/happy.svg"
@@ -55,8 +55,9 @@ function home() {
               </div>
             </Col>
           </Row>
-        </Container>
+      </Container>
       </div>
+
     </>
   );
 }

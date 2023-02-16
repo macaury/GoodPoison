@@ -19,8 +19,8 @@ body {
     }
 
     .navbar-nav a {
-      font-size: 16px;
-      margin: 0 10px;
+      font-size: 16px !important;
+      margin: 0 10px !important;
     }
   }
 
@@ -39,18 +39,18 @@ body {
   .line_home {
     .rectangle_client {
       position: absolute;
-      right: 40px;
-      bottom: 61px;
+      right: 40rem !important;
+      top: -15.6rem !important;
     }
 
     .rectangle_client,
     .rectangle_project {
       h2 {
-        font-size: 50px;
+        font-size: 50px !important;
       }
       span {
-        font-size: 30px;
-        margin-top: -10px;
+        font-size: 30px !important;
+        margin-top: -10px !important;
       }
     }
   }
@@ -88,7 +88,7 @@ body {
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 790px) {
   #Navbar {
     .navbar-nav {
       display: none;
@@ -115,6 +115,7 @@ body {
   .line_home {
     .rectangle_client {
       bottom: -17px;
+      left: 25rem !important;
     }
   }
 
@@ -147,10 +148,10 @@ body {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {  
   #Navbar {
     .logo {
-      height: 60px;
+      height: 60px !important;
       padding: 0 0 0 10px;
     }
 
@@ -163,46 +164,48 @@ body {
 
   #Home {
     .box_home {
-      padding: 25px !important;
+      padding: 30px !important;
       h1 {
-        font-size: 50px;
+        font-size: 50px !important;
+        margin: 0 0 30px 0 !important;
       }
+    
     }
   }
 
   .line_home {
     .rectangle_project,
     .rectangle_client {
-      width: 180px;
+      width: 180px !important;
       img {
-        width: 70px;
-        left: 50px;
+        width: 70px !important;
+        left: 50px !important;
       }
 
       h2 {
-        font-size: 35px;
-        left: 40px;
+        font-size: 35px !important;
+        left: 40px !important;
       }
       span {
-        font-size: 25px;
-        left: 40px;
+        font-size: 25px !important;
+        left: 40px !important;
       }
     }
     .rectangle_project {
       span {
-        top: 200px;
+        top: 200px !important;
       }
     }
 
     .rectangle_client {
       span {
-        top: 150px;
+        top: 150px !important;
       }
     }
 
     .rectangle_client {
-      right: 10px;
-      bottom: 65px;
+      left: 14rem !important;
+      bottom: 65px !important;
     }
   }
 
@@ -249,7 +252,7 @@ body {
     .control_txt {
       padding: 0 25px;
       h2 {
-        font-size: 40px;
+        font-size: 40px !important;
       }
       span,
       h2 {
@@ -261,7 +264,20 @@ body {
     }
   }
 
+  #makeDifferent{
+    h2{
+      font-size: 40px  !important;
+    }
+
+  }
+
   #OurTeam {
+
+    .ourteam_txt{
+      h1{
+        font-size: 40px !important;
+      }
+    }
     .services {
       width: 100%;
       display: block;
@@ -304,10 +320,53 @@ body {
     .logo_footer {
       margin: auto;
       display: block;
-        width: 250px !important;
+      width: 250px !important;
     }
-    .col{
-margin: 30px 0 0 0!important;
+    .col {
+      margin: 30px 0 0 0 !important;
     }
   }
+}
+
+
+@media screen and (max-width: 380px) {
+
+  .line_home {
+    .rectangle_project,
+    .rectangle_client {
+      border: 5px solid !important;
+      width: 160px !important;
+      img {
+        width: 70px !important;
+        left: 40px !important;
+      }
+
+      h2 {
+        font-size: 30px !important;
+        left: 30px !important;
+      }
+      span {
+        font-size: 20px !important;
+        left: 25px !important;
+      }
+    }
+    .rectangle_project {
+      span {
+        top: 200px !important;
+      }
+    }
+
+    .rectangle_client {
+      span {
+        top: 150px !important;
+      }
+    }
+
+    .rectangle_client {
+      left: 12rem !important;
+      bottom: 65px !important;
+    }
+  }
+
+
 }

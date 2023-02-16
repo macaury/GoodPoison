@@ -98,6 +98,10 @@ body {
 .line_home .rectangle_client span {
   font-size: 35px;
 }
+.line_home .rectangle_client {
+  left: 20rem;
+  top: -15.7rem;
+}
 .line_home .rectangle_client span {
   top: 180px;
 }

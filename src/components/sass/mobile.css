@@ -15,8 +15,8 @@ body {
     height: 40px;
   }
   #Navbar .navbar-nav a {
-    font-size: 16px;
-    margin: 0 10px;
+    font-size: 16px !important;
+    margin: 0 10px !important;
   }
   #Home .col_box {
     display: block;
@@ -30,17 +30,17 @@ body {
   }
   .line_home .rectangle_client {
     position: absolute;
-    right: 40px;
-    bottom: 61px;
+    right: 40rem !important;
+    top: -15.6rem !important;
   }
   .line_home .rectangle_client h2,
   .line_home .rectangle_project h2 {
-    font-size: 50px;
+    font-size: 50px !important;
   }
   .line_home .rectangle_client span,
   .line_home .rectangle_project span {
-    font-size: 30px;
-    margin-top: -10px;
+    font-size: 30px !important;
+    margin-top: -10px !important;
   }
   #garden .garden_pest_svg img {
     width: 450px;
@@ -63,7 +63,7 @@ body {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 790px) {
   #Navbar .navbar-nav {
     display: none;
   }
@@ -85,6 +85,7 @@ body {
   }
   .line_home .rectangle_client {
     bottom: -17px;
+    left: 25rem !important;
   }
   #garden .garden_pest_svg img {
     width: 100%;
@@ -105,48 +106,49 @@ body {
     width: 150px;
   }
 }
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 500px) {
   #Navbar .logo {
-    height: 60px;
+    height: 60px !important;
     padding: 0 0 0 10px;
   }
   #Navbar .menu_clas .btn_main {
     display: none;
   }
   #Home .box_home {
-    padding: 25px !important;
+    padding: 30px !important;
   }
   #Home .box_home h1 {
-    font-size: 50px;
+    font-size: 50px !important;
+    margin: 0 0 30px 0 !important;
   }
   .line_home .rectangle_project,
   .line_home .rectangle_client {
-    width: 180px;
+    width: 180px !important;
   }
   .line_home .rectangle_project img,
   .line_home .rectangle_client img {
-    width: 70px;
-    left: 50px;
+    width: 70px !important;
+    left: 50px !important;
   }
   .line_home .rectangle_project h2,
   .line_home .rectangle_client h2 {
-    font-size: 35px;
-    left: 40px;
+    font-size: 35px !important;
+    left: 40px !important;
   }
   .line_home .rectangle_project span,
   .line_home .rectangle_client span {
-    font-size: 25px;
-    left: 40px;
+    font-size: 25px !important;
+    left: 40px !important;
   }
   .line_home .rectangle_project span {
-    top: 200px;
+    top: 200px !important;
   }
   .line_home .rectangle_client span {
-    top: 150px;
+    top: 150px !important;
   }
   .line_home .rectangle_client {
-    right: 10px;
-    bottom: 65px;
+    left: 14rem !important;
+    bottom: 65px !important;
   }
   #Pest_Library {
     margin: 200px 0 150px 0 !important;
@@ -186,7 +188,7 @@ body {
     padding: 0 25px;
   }
   #weedControl .control_txt h2 {
-    font-size: 40px;
+    font-size: 40px !important;
   }
   #weedControl .control_txt span,
   #weedControl .control_txt h2 {
@@ -194,6 +196,12 @@ body {
   }
   #weedControl .bug_icon {
     display: none;
+  }
+  #makeDifferent h2 {
+    font-size: 40px !important;
+  }
+  #OurTeam .ourteam_txt h1 {
+    font-size: 40px !important;
   }
   #OurTeam .services {
     width: 100%;
@@ -236,5 +244,37 @@ body {
   }
   #footer .col {
     margin: 30px 0 0 0 !important;
+  }
+}
+@media screen and (max-width: 380px) {
+  .line_home .rectangle_project,
+  .line_home .rectangle_client {
+    border: 5px solid !important;
+    width: 160px !important;
+  }
+  .line_home .rectangle_project img,
+  .line_home .rectangle_client img {
+    width: 70px !important;
+    left: 40px !important;
+  }
+  .line_home .rectangle_project h2,
+  .line_home .rectangle_client h2 {
+    font-size: 30px !important;
+    left: 30px !important;
+  }
+  .line_home .rectangle_project span,
+  .line_home .rectangle_client span {
+    font-size: 20px !important;
+    left: 25px !important;
+  }
+  .line_home .rectangle_project span {
+    top: 200px !important;
+  }
+  .line_home .rectangle_client span {
+    top: 150px !important;
+  }
+  .line_home .rectangle_client {
+    left: 12rem !important;
+    bottom: 65px !important;
   }
 }/*# sourceMappingURL=mobile.css.map */
