@@ -5,8 +5,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import "./home.scss";
-import "./mobile.scss";
+import "./sass/style.scss";
+import "./sass/mobile.scss";
 
 function home() {
   return (

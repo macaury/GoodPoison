@@ -6,7 +6,8 @@ import Col from "react-bootstrap/Col";
 
 import Card from "react-bootstrap/Card";
 
-import "./OurTeam.scss";
+import "./sass/style.scss";
+import "./sass/mobile.scss";
 
 function OurTeam() {
   const [data, setData] = useState([]);

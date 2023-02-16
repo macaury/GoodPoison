@@ -5,7 +5,8 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 
-import "./weedcontrol.scss"
+import "./sass/style.scss";
+import "./sass/mobile.scss";
 
 function weedcontrol() {
   return (

@@ -8,7 +8,8 @@ import Button from "react-bootstrap/Button";
 
 import { VscMenu } from "react-icons/vsc";
 
-import "./navbar.scss";
+import "./sass/style.scss";
+import "./sass/mobile.scss";
 
 function navbar() {
   return (

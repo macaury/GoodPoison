@@ -4,7 +4,8 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
-import "./makeDifferent.scss";
+import "./sass/style.scss";
+import "./sass/mobile.scss";
 
 function makeDifferent() {
   return (

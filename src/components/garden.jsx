@@ -3,7 +3,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
-import "./garden.scss";
+import "./sass/style.scss";
+import "./sass/mobile.scss";
 
 function Garden() {
   return (
