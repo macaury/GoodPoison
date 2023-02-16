@@ -25,10 +25,10 @@ function navbar() {
           </Navbar.Brand>
 
           <Nav>
-            <Nav.Link>Home</Nav.Link>
-            <Nav.Link> Pest Control</Nav.Link>
-            <Nav.Link> Prevent and Protect</Nav.Link>
-            <Nav.Link> Expert Training</Nav.Link>
+            <Nav.Link to="#Home">Home</Nav.Link>
+            <Nav.Link to="#Pest_control"> Pest Control</Nav.Link>
+            <Nav.Link to="OurTeam"> Prevent and Protect</Nav.Link>
+            <Nav.Link > Expert Training</Nav.Link>
           </Nav>
           <div className="menu_clas">
             <Button className="btn_main">Contact Us</Button>
