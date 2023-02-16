@@ -1,0 +1,41 @@
+[
+  {
+    "id": "001",
+    "name": "Stinging Pest",
+    "order": "Diptera",
+    "image": "https://raw.githubusercontent.com/macaury/GoodPoison/3b504bf535f13dfc5420372399ac93d4fd2694a3/src/assets/plibrary/Stinging%20Pest.svg"
+  },
+
+  {
+    "id": "002",
+    "name": "Ants",
+    "order": "Family Formicidae",
+    "image": "https://raw.githubusercontent.com/macaury/GoodPoison/3b504bf535f13dfc5420372399ac93d4fd2694a3/src/assets/plibrary/ant.svg"
+  },
+  {
+    "id": "003",
+    "name": "Bed bug",
+    "order": "Cimicidae",
+    "image": "https://raw.githubusercontent.com/macaury/GoodPoison/3b504bf535f13dfc5420372399ac93d4fd2694a3/src/assets/plibrary/bed%20bug.svg"
+  },
+  {
+    "id": "004",
+    "name": "Flies",
+    "order": "Order Diptera",
+    "image": "https://raw.githubusercontent.com/macaury/GoodPoison/3b504bf535f13dfc5420372399ac93d4fd2694a3/src/assets/plibrary/flies.svg "
+  },
+
+  {
+    "id": "005",
+    "name": "rodent",
+    "order": "Order Rodentia",
+    "image": "https://raw.githubusercontent.com/macaury/GoodPoison/3b504bf535f13dfc5420372399ac93d4fd2694a3/src/assets/plibrary/rodent.svg"
+  },
+
+  {
+    "id": "006",
+    "name": "cockroaches",
+    "order": "Order Blattodea",
+    "image": "https://raw.githubusercontent.com/macaury/GoodPoison/3b504bf535f13dfc5420372399ac93d4fd2694a3/src/assets/plibrary/Cockroaches.svg"
+  }
+]

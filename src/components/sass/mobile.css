@@ -1,0 +1,240 @@
+.menu {
+  display: none;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1050px) {
+  .svg_home,
+  .svg_col {
+    display: none;
+  }
+  #Navbar .logo {
+    height: 40px;
+  }
+  #Navbar .navbar-nav a {
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  #Home .col_box {
+    display: block;
+    margin: auto;
+  }
+  #Home .col_box .box_home {
+    top: 0;
+    position: relative;
+    padding: 60px;
+    width: 100%;
+  }
+  .line_home .rectangle_client {
+    position: absolute;
+    right: 40px;
+    bottom: 61px;
+  }
+  .line_home .rectangle_client h2,
+  .line_home .rectangle_project h2 {
+    font-size: 50px;
+  }
+  .line_home .rectangle_client span,
+  .line_home .rectangle_project span {
+    font-size: 30px;
+    margin-top: -10px;
+  }
+  #garden .garden_pest_svg img {
+    width: 450px;
+  }
+  #weedControl .bug_icon img {
+    width: 150px;
+    right: 100px;
+    position: absolute;
+  }
+  #weedControl .control_icon img {
+    width: 100%;
+  }
+  #OurTeam .FindUs h2 {
+    font-size: 40px;
+  }
+  #OurTeam .FindUs img {
+    width: 450px;
+  }
+  #OurTeam .FindUs .call {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 780px) {
+  #Navbar .navbar-nav {
+    display: none;
+  }
+  #Navbar .menu_clas {
+    display: flex;
+  }
+  #Navbar .menu_clas .menu {
+    border: none;
+    background-color: #0c0c0c;
+    display: block;
+    padding: 15px;
+    margin: 0 0 0 35px !important;
+  }
+  #Navbar .menu_clas .menu svg {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    display: block;
+  }
+  .line_home .rectangle_client {
+    bottom: -17px;
+  }
+  #garden .garden_pest_svg img {
+    width: 100%;
+  }
+  #OurTeam .FindUs {
+    padding: 15px;
+  }
+  #OurTeam .FindUs h2 {
+    font-size: 30px;
+  }
+  #OurTeam .FindUs img {
+    width: 400px;
+  }
+  #footer .row h5 {
+    font-size: 20px;
+  }
+  #footer .row .logo_footer {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 430px) {
+  #Navbar .logo {
+    height: 60px;
+    padding: 0 0 0 10px;
+  }
+  #Navbar .menu_clas .btn_main {
+    display: none;
+  }
+  #Home .box_home {
+    padding: 25px !important;
+  }
+  #Home .box_home h1 {
+    font-size: 50px;
+  }
+  .line_home .rectangle_project,
+  .line_home .rectangle_client {
+    width: 180px;
+  }
+  .line_home .rectangle_project img,
+  .line_home .rectangle_client img {
+    width: 70px;
+    left: 50px;
+  }
+  .line_home .rectangle_project h2,
+  .line_home .rectangle_client h2 {
+    font-size: 35px;
+    left: 40px;
+  }
+  .line_home .rectangle_project span,
+  .line_home .rectangle_client span {
+    font-size: 25px;
+    left: 40px;
+  }
+  .line_home .rectangle_project span {
+    top: 200px;
+  }
+  .line_home .rectangle_client span {
+    top: 150px;
+  }
+  .line_home .rectangle_client {
+    right: 10px;
+    bottom: 65px;
+  }
+  #Pest_Library {
+    margin: 200px 0 150px 0 !important;
+  }
+  #Pest_Library h1 {
+    font-size: 40px !important;
+    word-spacing: 5px;
+    text-align: justify;
+  }
+  #Pest_Library h3 {
+    font-size: 20px !important;
+  }
+  #garden {
+    margin-bottom: 100px !important;
+  }
+  #garden .garden_pest_svg {
+    display: none;
+  }
+  #garden .garden_txt {
+    padding: 25px !important;
+  }
+  #garden .garden_txt h2 {
+    font-size: 40px !important;
+  }
+  #garden .garden_txt h2,
+  #garden .garden_txt span,
+  #garden .garden_txt h3 {
+    text-align: justify !important;
+  }
+  #garden .garden_txt h3 {
+    font-size: 20px !important;
+  }
+  #weedControl {
+    margin-bottom: 100px !important;
+  }
+  #weedControl .control_txt {
+    padding: 0 25px;
+  }
+  #weedControl .control_txt h2 {
+    font-size: 40px;
+  }
+  #weedControl .control_txt span,
+  #weedControl .control_txt h2 {
+    text-align: justify;
+  }
+  #weedControl .bug_icon {
+    display: none;
+  }
+  #OurTeam .services {
+    width: 100%;
+    display: block;
+  }
+  #OurTeam .services .service_card {
+    position: relative;
+  }
+  #OurTeam .services .service_card .image {
+    margin: auto;
+    display: block;
+  }
+  #OurTeam .services .service_card h3,
+  #OurTeam .services .service_card a {
+    text-align: center;
+  }
+  #OurTeam .services .service_card::after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #0c0c0c;
+    bottom: 0;
+    left: 0;
+  }
+  #OurTeam .FindUs {
+    padding: 40px;
+    width: 350px;
+  }
+  #OurTeam .FindUs h2 {
+    font-size: 30px;
+  }
+  #OurTeam .FindUs .box_svg {
+    display: none;
+  }
+  #footer .logo_footer {
+    margin: auto;
+    display: block;
+    width: 250px !important;
+  }
+  #footer .col {
+    margin: 30px 0 0 0 !important;
+  }
+}/*# sourceMappingURL=mobile.css.map */

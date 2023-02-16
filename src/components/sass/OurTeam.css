@@ -1,0 +1,83 @@
+#OurTeam {
+  margin-top: 100px;
+}
+#OurTeam .ourteam_txt {
+  text-align: center;
+}
+#OurTeam .ourteam_txt h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 30px 0;
+}
+#OurTeam .ourteam_txt h3 {
+  font-size: 25px;
+}
+
+.services {
+  display: flex;
+  flex: none;
+  margin: 100px 0;
+}
+.services .service_card {
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+.services .service_card .image {
+  width: 120px;
+  height: 120px;
+}
+.services .service_card h3 {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 40px 0;
+}
+.services .service_card span {
+  word-spacing: 8px;
+  font-style: normal;
+  font-size: 18px;
+}
+.services .service_card a {
+  font-size: 16px;
+  display: block;
+  margin: 40px 0;
+  color: #0c0c0c;
+}
+.services .service_card a img {
+  margin: 0 10px;
+}
+
+.FindUs {
+  display: flex;
+  margin: auto;
+  margin-bottom: -150px;
+  padding: 50px;
+  width: 1200px;
+  height: 350px;
+  text-align: start;
+  background-color: #f3f2f2;
+  box-shadow: 0px 0px 44px -11px rgba(0, 0, 0, 0.4);
+}
+.FindUs h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.FindUs span {
+  display: block;
+  margin: 15px 0;
+}
+.FindUs .call {
+  font-weight: 600;
+  margin: 20px 0 40px 0;
+}
+.FindUs input {
+  background-color: #f3f2f2;
+  border: none;
+  border-bottom: 1px solid #0c0c0c;
+  font-style: italic;
+  width: 200px;
+}
+.FindUs img {
+  margin: auto;
+  width: 550px;
+}/*# sourceMappingURL=OurTeam.css.map */

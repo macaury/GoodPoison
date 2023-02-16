@@ -1,0 +1,29 @@
+#Navbar {
+  height: 100px;
+}
+#Navbar .navbar-nav a {
+  font-size: 18px;
+  margin: 0 25px;
+  color: #0c0c0c;
+}
+#Navbar .logo {
+  height: 50px;
+}
+#Navbar .navbar-nav a {
+  position: relative;
+}
+#Navbar .navbar-nav a:after {
+  content: " ";
+  width: 0;
+  position: absolute;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #0c0c0c;
+  border-radius: 30px;
+  transition: all 0.8s;
+}
+#Navbar .navbar-nav a:hover::after {
+  transition-duration: 1s;
+  width: 100%;
+}/*# sourceMappingURL=navbar.css.map */

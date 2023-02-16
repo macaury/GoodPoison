@@ -1,0 +1,20 @@
+#weedControl {
+  margin-bottom: 200px;
+}
+#weedControl .control_txt h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+#weedControl .control_txt span {
+  display: block;
+  margin: 30px 0;
+  font-size: 18px;
+}
+#weedControl .bug_icon {
+  width: 200px;
+  margin: auto;
+}
+
+.control_icon {
+  text-align: center;
+}/*# sourceMappingURL=weedcontrol.css.map */

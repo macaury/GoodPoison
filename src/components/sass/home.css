@@ -1,0 +1,112 @@
+.btn_main {
+  transition-duration: 0.8s;
+  font-size: 18px;
+  background-color: #0c0c0c;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+.btn_main:hover {
+  animation-duration: 1ms;
+  background-color: #f3f2f2;
+  color: #0c0c0c;
+  box-shadow: inset 0px 0px 34px -17px rgba(0, 0, 0, 0.57);
+}
+
+#Home .box_home {
+  position: absolute;
+  top: 220px;
+  width: 650px;
+}
+#Home .box_home h1 {
+  font-weight: bold;
+  font-size: 65px;
+  text-align: justify;
+}
+#Home .box_home span {
+  margin-top: 40px;
+  font-size: 25px;
+}
+#Home .svg_home {
+  width: 700px;
+}
+#Home .btn_main {
+  margin: 20px 0;
+}
+
+.line_home {
+  width: 100%;
+  height: 250px;
+  color: white;
+  background-color: #0c0c0c;
+}
+.line_home .rectangle_project,
+.line_home .rectangle_client {
+  border: 10px solid #f3f2f2;
+  width: 300px;
+  height: 260px;
+  position: relative;
+}
+.line_home .rectangle_project span,
+.line_home .rectangle_project h2,
+.line_home .rectangle_client span,
+.line_home .rectangle_client h2 {
+  left: 45px;
+  position: absolute;
+}
+.line_home .rectangle_project h2,
+.line_home .rectangle_client h2 {
+  font-size: 65px;
+  font-weight: 900;
+}
+.line_home .rectangle_project span,
+.line_home .rectangle_client span {
+  font-size: 35px;
+}
+.line_home .rectangle_client span {
+  top: 180px;
+}
+.line_home .rectangle_client h2 {
+  left: 70px;
+  top: 100px;
+}
+.line_home .rectangle_client img {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 6rem;
+  top: -1rem;
+}
+.line_home .rectangle_project {
+  margin-top: -10px;
+}
+.line_home .rectangle_project span {
+  top: 230px;
+}
+.line_home .rectangle_project h2 {
+  top: 150px;
+  left: 55px;
+}
+.line_home .rectangle_project img {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 6rem;
+  top: 2rem;
+}
+.line_home .rectangle_project::before,
+.line_home .rectangle_client::before {
+  content: " ";
+  width: 100%;
+  height: 290px;
+  left: 0;
+  position: absolute;
+  background-color: #0c0c0c;
+}
+.line_home .rectangle_client::before {
+  bottom: 0;
+}
+.line_home .rectangle_project::before {
+  top: 0;
+}/*# sourceMappingURL=home.css.map */
