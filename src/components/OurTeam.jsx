@@ -14,7 +14,7 @@ function OurTeam() {
   const carousel = useRef();
 
   useEffect(() => {
-    fetch("http://localhost:5173/public/OurTeam.json")
+    fetch("https://macaury.github.io/GoodPoison/public/OurTeam.json")
       .then((response) => response.json())
       .then(setData);
   }, []);

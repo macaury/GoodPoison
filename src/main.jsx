@@ -2,8 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 
-import "./components/sass";
-import "./components/sass/mobile.scss";
+import "./components/sass/main.css";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(

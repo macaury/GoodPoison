@@ -14,7 +14,7 @@ function PestLibrary() {
   const carousel = useRef();
 
   useEffect(() => {
-    fetch("http://localhost:5173/public/pest_library.json")
+    fetch("https://macaury.github.io/GoodPoison/public/pest_library.json")
       .then((response) => response.json())
       .then(setData);
   }, []);
