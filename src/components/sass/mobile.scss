@@ -8,8 +8,12 @@ body {
 }
 
 
-#Navbar{
+
+#Navbar {
   .mobile_menu {
+    transition-duration: all 1s;
+    animation-duration: 1ms;
+
     position: absolute !important;
     width: 100%;
     top: 5rem;
@@ -24,13 +28,12 @@ body {
       margin: 10px 0 !important;
       display: block;
     }
-    
+
     a:hover::after {
       background-color: #f3f2f2 !important;
     }
   }
 }
-
 
 @media screen and (max-width: 1050px) {
   .svg_home,
@@ -44,7 +47,7 @@ body {
     }
 
     .navbar-nav a {
-      font-size: 16px !important;
+      font-size: 16px;
       margin: 0 10px !important;
     }
   }
@@ -115,9 +118,10 @@ body {
 
 @media screen and (max-width: 768px) {
   #Navbar {
-   .web_menu{
-    display: none;
-   }
+    .web_menu {
+      display: none;
+      transition: all 0.5s;
+    }
 
     .menu_clas {
       display: flex;

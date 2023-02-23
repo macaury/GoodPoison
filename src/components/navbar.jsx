@@ -15,8 +15,13 @@ import "./sass/mobile.scss";
 function navbar() {
   
   const [isMobile, setMobile] = useState(false);
+  
 
   return (
+
+
+
+
     <>
       <Navbar id="Navbar" sticky="top" bg="--secondary-color" expand="lg">
         <Container>
