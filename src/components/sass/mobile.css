@@ -6,6 +6,17 @@ body {
   scroll-behavior: smooth;
 }
 
+.mobile_menu {
+  display: block;
+  position: absolute;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  top: 15px;
+  right: 25px;
+  transition: all 0.8s;
+}
+
 @media screen and (max-width: 1050px) {
   .svg_home,
   .svg_col {
