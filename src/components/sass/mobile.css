@@ -6,15 +6,24 @@ body {
   scroll-behavior: smooth;
 }
 
-.mobile_menu {
+#Navbar .mobile_menu {
+  position: absolute !important;
+  width: 100%;
+  top: 5rem;
+  left: 0;
+  margin: 10px 0;
+  padding: 50px 0;
+  background-color: #0c0c0c;
+}
+#Navbar .mobile_menu a {
+  color: #f3f2f2 !important;
+  font-size: 25px !important;
+  text-align: center;
+  margin: 10px 0 !important;
   display: block;
-  position: absolute;
-  font-size: 30px;
-  border: none;
-  outline: none;
-  top: 15px;
-  right: 25px;
-  transition: all 0.8s;
+}
+#Navbar .mobile_menu a:hover::after {
+  background-color: #f3f2f2 !important;
 }
 
 @media screen and (max-width: 1050px) {
@@ -74,8 +83,8 @@ body {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 790px) {
-  #Navbar .navbar-nav {
+@media screen and (max-width: 768px) {
+  #Navbar .web_menu {
     display: none;
   }
   #Navbar .menu_clas {

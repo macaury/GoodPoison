@@ -18,7 +18,7 @@ function navbar() {
 
   return (
     <>
-      <Navbar id="Navbar" bg="--secondary-color" expand="lg">
+      <Navbar id="Navbar" sticky="top" bg="--secondary-color" expand="lg">
         <Container>
           <Navbar.Brand>
             <img
@@ -28,7 +28,7 @@ function navbar() {
             />
           </Navbar.Brand>
 
-          <Nav className={isMobile ? "mobile_menu" : "links_navbar"}>
+          <Nav className={isMobile? "mobile_menu" : "web_menu "}>
             <Nav.Link to="#Home">Home</Nav.Link>
             <Nav.Link to="#Pest_control"> Pest Control</Nav.Link>
             <Nav.Link to="OurTeam"> Prevent and Protect</Nav.Link>
